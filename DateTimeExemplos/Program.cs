@@ -17,7 +17,7 @@ namespace DateTimeExemplos
             DateTime d3 = DateTime.UtcNow;
 
 
-            //----------------PARSE Andrei ---------------
+            //----------------PARSE Andrei Jung---------------
 
             DateTime d4 = DateTime.Parse("2000-08-15");
 
