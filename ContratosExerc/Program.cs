@@ -26,7 +26,7 @@ namespace ContratosExerc
 
             Department detp = new Department(deptName);
 
-            Worker worker = new Worker(name, level,baseSalary, detp);
+            Worker worker = new Worker(name, level, baseSalary, detp);
 
 
             Console.Write("How many contacts to this worker ?");
