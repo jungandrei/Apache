@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContratosExerc", "Contratos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuildEx", "StringBuildEx\StringBuildEx.csproj", "{391D7A64-424E-43CA-9758-814AAFFBD67B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herança", "Herança\Herança.csproj", "{C1E02C82-3399-4A8C-8A75-D357AD8022E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Herança", "Herança\Herança.csproj", "{C1E02C82-3399-4A8C-8A75-D357AD8022E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerançaEx", "HerançaEx\HerançaEx.csproj", "{15567F32-4F7A-436C-BDD6-55CDBC372BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{C1E02C82-3399-4A8C-8A75-D357AD8022E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E02C82-3399-4A8C-8A75-D357AD8022E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E02C82-3399-4A8C-8A75-D357AD8022E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15567F32-4F7A-436C-BDD6-55CDBC372BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15567F32-4F7A-436C-BDD6-55CDBC372BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15567F32-4F7A-436C-BDD6-55CDBC372BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15567F32-4F7A-436C-BDD6-55CDBC372BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

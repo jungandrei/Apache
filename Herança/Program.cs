@@ -7,8 +7,14 @@ namespace Herança
     {
         static void Main(string[] args)
         {
-            BusinessAccount account = new BusinessAccount(8010, "Bob Brown", 100.0, 500.0);
-            Console.WriteLine(account.Balance);
+            Account ac1 = new Account(1001,"Alex",500.0);
+            Account ac2 = new SavingsAccount(1002, "Anna", 500.0,0.01);
+
+            ac1.WithDraw(10.0);
+            ac2.WithDraw(10.0);
+
+            Console.WriteLine(ac1.Balance);
+            Console.WriteLine(ac2.Balance);
         }
     }
 }

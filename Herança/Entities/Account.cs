@@ -22,9 +22,9 @@ namespace Herança.Entities
             Balance = balance;
         }
 
-        public void WithDraw(double amount)
+        public virtual void WithDraw(double amount)
         {
-            Balance = Balance - amount;
+            Balance -= amount + 5.0;
         }
 
         public void Deposit(double amount)
