@@ -12,12 +12,12 @@ namespace EnumEx
             {
                 Id = 1,
                 Moment = DateTime.Now,
-                Status = OrderStatus.PendingPaument
+                Status = OrderStatus.PendingPayment
             };
 
             Console.WriteLine(order);
 
-            string txt = OrderStatus.PendingPaument.ToString();
+            string txt = OrderStatus.PendingPayment.ToString();
             Console.WriteLine(txt);
 
             //Convertendo string para enum
