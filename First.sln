@@ -53,15 +53,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Herança", "Herança\Heran�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerançaEx", "HerançaEx\HerançaEx.csproj", "{15567F32-4F7A-436C-BDD6-55CDBC372BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstratas", "Abstratas\Abstratas.csproj", "{52A2954B-3E6A-4015-A036-ABD087BB16EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstratas", "Abstratas\Abstratas.csproj", "{52A2954B-3E6A-4015-A036-ABD087BB16EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{A4D7EDA6-ACE6-4692-99FE-851EAEF42D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosAbstratos", "MetodosAbstratos\MetodosAbstratos.csproj", "{A4D7EDA6-ACE6-4692-99FE-851EAEF42D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoExcecoes", "TratamentoExcecoes\TratamentoExcecoes.csproj", "{CD171769-AFAF-4581-AD7C-70AC027A527E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoExcecoes", "TratamentoExcecoes\TratamentoExcecoes.csproj", "{CD171769-AFAF-4581-AD7C-70AC027A527E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcecaoEx", "ExcecaoEx\ExcecaoEx.csproj", "{A3A102F3-419D-4FA4-B2A9-C98370281F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcecaoEx", "ExcecaoEx\ExcecaoEx.csproj", "{A3A102F3-419D-4FA4-B2A9-C98370281F6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xadrez", "Xadrez\Xadrez.csproj", "{5613BD30-E1AF-4B0D-B569-43B60D2C91D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xadrez", "Xadrez\Xadrez.csproj", "{5613BD30-E1AF-4B0D-B569-43B60D2C91D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquivos", "Arquivos\Arquivos.csproj", "{B5CDD3CE-44E0-4326-A885-E3799D1DD000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream_", "FileStream_\FileStream_.csproj", "{C2E508F6-27E5-4C72-A56F-AE663A16A4BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directoty_", "Directoty_\Directoty_.csproj", "{A5951838-BBD1-449B-A104-32C49347EC64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +195,18 @@ Global
 		{5613BD30-E1AF-4B0D-B569-43B60D2C91D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5613BD30-E1AF-4B0D-B569-43B60D2C91D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5613BD30-E1AF-4B0D-B569-43B60D2C91D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CDD3CE-44E0-4326-A885-E3799D1DD000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CDD3CE-44E0-4326-A885-E3799D1DD000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CDD3CE-44E0-4326-A885-E3799D1DD000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CDD3CE-44E0-4326-A885-E3799D1DD000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E508F6-27E5-4C72-A56F-AE663A16A4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E508F6-27E5-4C72-A56F-AE663A16A4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E508F6-27E5-4C72-A56F-AE663A16A4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E508F6-27E5-4C72-A56F-AE663A16A4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5951838-BBD1-449B-A104-32C49347EC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5951838-BBD1-449B-A104-32C49347EC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5951838-BBD1-449B-A104-32C49347EC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5951838-BBD1-449B-A104-32C49347EC64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
